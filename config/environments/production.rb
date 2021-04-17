@@ -25,6 +25,8 @@ Rails.application.configure do
   # Compress CSS using a preprocessor.
   # config.assets.css_compressor = :sass
 
+  config.assets.compile = false
+
   config.assets.js_compressor = :uglifier
   # config.assets.js_compressor = :uglifier
 
